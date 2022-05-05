@@ -22,4 +22,40 @@ program
       await download(destination);
     },
   );
+
+program
+  .command('init')
+  .description('download published articles from Qiita, and construct project to publish')
+  .action(
+    async (source, destination): Promise<void> => {
+      await download(destination);
+    },
+  );
+
+program
+  .command('login')
+  .description('download published articles from Qiita, and construct project to publish')
+  .action(
+    async (source, destination): Promise<void> => {
+      await download(destination);
+    },
+  );
+
+program
+  .command('build')
+  .description('download published articles from Qiita, and construct project to publish')
+  .action(
+    async (source, destination): Promise<void> => {
+      await download(destination);
+    },
+  );
+
+program
+  .command('publish')
+  .description('download published articles from Qiita, and construct project to publish')
+  .action(
+    async (source, destination): Promise<void> => {
+      await download(destination);
+    },
+  );
 program.parse(process.argv);
