@@ -1,0 +1,11 @@
+{
+  "name": "qiita-publisher-cli",
+  "version": "0.0.6",
+  "description": "This is the blog download and publish management tools in the Qiita",
+  "main": "dist/index.js",
+  "author": "TakuKobayashi",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
