@@ -14,8 +14,7 @@
   },
   "dependencies": {
     "chalk": "^5.0.1",
-    "commander": "^9.2.0",
-    "read-pkg-up": "^9.1.0"
+    "commander": "^9.2.0"
   },
   "devDependencies": {
     "@types/jest": "^27.5.0",

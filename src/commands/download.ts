@@ -1,3 +1,5 @@
 import * as fs from 'fs';
 
-export const download = async (options: any): Promise<void> => {};
+export const download = async (options: any): Promise<void> => {
+  console.log("test");
+};
