@@ -1,13 +1,13 @@
 {
   "name": "qiita-publisher-cli",
-  "version": "0.0.6",
+  "version": "0.0.1",
   "description": "This is the blog download and publish management tools in the Qiita",
   "main": "dist/index.js",
   "author": "TakuKobayashi",
   "license": "MIT",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "format": "prettier --config .prettierrc --write 'src/**/*.{ts,js}'",
+    "format": "prettier --config .prettierrc --write \"src/**/*.{ts,js}\"",
     "docs": "typedoc --out docs/ && touch docs/.nojekyll",
     "jest": "jest -c jest.config.js",
     "ts-node": "ts-node"
